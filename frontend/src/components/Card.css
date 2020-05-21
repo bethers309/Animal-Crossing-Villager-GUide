@@ -1,0 +1,111 @@
+/* .btn {
+    display: inline-block;
+    font-weight: 1000;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} */
+
+.card-button {
+  background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fthenewhylton%2Fart%2FAnimal-Crossing-Grass-Remake-Spring-HD-439882381&psig=AOvVaw2FYjiFOmLpk-LdEEZmdRdu&ust=1589948052220000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjh2PyHv-kCFQAAAAAdAAAAABAD");
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+.card-photo {
+  width: 200px;
+  height:auto;
+  background-color: white;
+  margin-left: 5%;
+  padding-bottom: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caption{
+    transform: translate(0%, -220%);
+}
+
+.id_container {
+    width: 45%;
+    text-align:center;
+    height: 340px;
+}
+
+.v-name{
+    font-size: 30px;
+}
+
+.gender-photo{
+    margin-left: 70%;
+    transform: translate(5%, -380%);
+    width: 20px;
+}
+
+.dialog{
+    width: 200px;
+    max-width: 100%;
+    height:auto;
+    transform: translate(0%, -80%);
+}
+
+.phrase{
+    transform: translate(0%, -600%);
+    color: white;
+    font-size: 20px;
+    font-family: "Nunito", Nunito Regular, monospace;
+}
+
+.modal {
+  display: block;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.25rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 500px;
+  max-width: 100%;
+  /* height: 400px; */
+  max-height: 100%;
+  background-color: #fff9e6;
+  border-color: #a06931;
+  overflow-y: auto;
+  border: 2px solid #93ae4b;
+}
+
+/* .modal-body{
+    height: 300px;
+} */
+
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+.column {
+    float: left;
+  }
+  
+.right {
+    float:right;
+    width: 55%;
+  }
+
+.modal-backdrop {
+  opacity: 0.6;
+}
